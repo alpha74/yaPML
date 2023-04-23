@@ -1,13 +1,14 @@
-## LMPay Assignment
+## Django Rest Framework Demo
 
-- Aman Kumar
+#### CRUD and Token login APIs
 
 
-## Run
+### Run
 
 - Install packages from `requirements.txt`.
 - Run command `python manage.py runserver`.
 
+-----------
 
 ### APIs
 
@@ -36,6 +37,9 @@
 `
 
 
+-----------
+
+
 #### User login
 
 - `POST /localhost:8000/auth/login`
@@ -56,6 +60,8 @@
 	"token": "eyJhbGciOiJIUzI1NiIsInR"
 }
 `
+
+-----------
 
 
 #### Get products
@@ -100,6 +106,7 @@
 }
 `
 
+-----------
 
 #### Add new product
 
