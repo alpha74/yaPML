@@ -1,3 +1,5 @@
+<img src="https://www.django-rest-framework.org/img/logo.png" height="100pm" width="250px">
+
 ## Django Rest Framework Demo
 
 #### CRUD and Token login APIs
@@ -19,22 +21,22 @@
 
 - Sample input:
 
-`
+```
 {
 	"username": "jackd",
-    "email" : "jackt@yaPML.com",
+    	"email" : "jackt@yaPML.com",
 	"password": "yaPML2023"
 }
-`
+```
 
 - Sample output:
 
-`
+```
 201 CREATED
 {
 	"message" : "success"
 }
-`
+```
 
 
 -----------
@@ -46,20 +48,20 @@
 
 - Sample input:
 
-`
+```
 {
 	"username": "johnd",
 	"password": "83rPAS*"
 }
-`
+```
 
 - Sample output:
 
-`
+```
 {
 	"token": "eyJhbGciOiJIUzI1NiIsInR"
 }
-`
+```
 
 -----------
 
@@ -71,7 +73,7 @@
 
 - Sample response
 
-`
+```
 200 OK
 {
     "count": 9,
@@ -104,7 +106,7 @@
         }
     ]
 }
-`
+```
 
 -----------
 
@@ -114,7 +116,7 @@
 
 - Sample Input:
 
-`
+```
  {
     "id": "9",
     "title": "Grey Silver Plated Princess",
@@ -123,12 +125,12 @@
     "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
     "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
 }
-`
+```
 
 
 - Sample Output:
 
-`
+```
 201 CREATED
 {
     "id": "10",
@@ -138,4 +140,4 @@
     "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
     "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
 }
-`
+```
